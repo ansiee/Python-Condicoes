@@ -16,11 +16,13 @@
 valorHora = float(input("Olá, funcionário. Por favor, insira o valor de suas horas trabalhadas: "))
 quantidadeHoras = float(input("Agora insira a quantidade de horas trabalhadas esse mês: "))
 salarioBruto = []
+fgts = []
+
 
 salarioBruto = valorHora * quantidadeHoras
 
 if(salarioBruto < 900):
-    print(f"Funcionário, seu Salário Bruto foi de {salarioBruto}, você está isento de receber o desconto!")
+    print(f"Funcionário, seu Salário Bruto foi de {salarioBruto}, você está isento de receber o desconto do Imposto de Renda! \n - Salário Bruto: R${salarioBruto} \n - (-) IR: ISENTO \n - (-) INSS (10%): R$")
 
 elif(salarioBruto > 900 and salarioBruto < 1500):
     
