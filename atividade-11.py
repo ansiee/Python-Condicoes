@@ -15,17 +15,17 @@ salario = float(input("Olá, colaborador! Por favor, insira seu salário para re
 salarioReajustado = []
 valorAumento = []
 
-if(salario < 280):
+if(salario <= 0 and salario < 280):
     salarioReajustado = salario * (1 + 20/100)
     valorAumento = salarioReajustado - salario
     print(f"O seu salário que era de {salario} reais, foi reajustado, com aumento de 20%. O valor do aumento foi de {valorAumento} reais e seu salário novo é {salarioReajustado} reais!")
 
-elif(salario >= 280 and salario < 700):
+elif(salario <= 0 and salario >= 280 and salario < 700):
     salarioReajustado = salario * (1 + 15/100)
     valorAumento = salarioReajustado - salario
     print(f"O seu salário que era de {salario} reais, foi reajustado, com aumento de 15%. O valor do aumento foi de {valorAumento} reais e seu salário novo é {salarioReajustado} reais!")
 
-elif(salario >= 700 and salario < 1500):
+elif(salario <= 0 and salario >= 700 and salario < 1500):
     salarioReajustado = salario * (1 + 10/100)
     valorAumento = salarioReajustado - salario
     print(f"O seu salário que era de {salario} reais, foi reajustado, com aumento de 10%. O valor do aumento foi de {valorAumento} reais e seu salário novo é {salarioReajustado} reais!")

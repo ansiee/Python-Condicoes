@@ -12,8 +12,4 @@ elif(numero2 > numero3 and numero3 > numero1):
 
 elif(numero3 > numero2 and numero2 > numero1):
      print(f"Os números inseridos foram {numero1}, {numero2} e {numero3}. O maior entre eles é o número {numero3}!")
-
-else:
-     print(f"Os números inseridos foram {numero1}, {numero2} e {numero3}. Os três são iguais!")
-
 #  CONCLUIDA

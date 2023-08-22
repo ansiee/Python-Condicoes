@@ -19,4 +19,11 @@ else:
        print(f"O valor de delta foi {delta}, a equação não possui raízes reais.")
     
     elif(delta == 0):
-        print(f"O valor de delta foi {delta}, a equação possui apenas uma raiz real: ")
+        bhaskaraMais = (-b + delta**(1/2))/2*valorA
+        bhaskaraMenos = (-b - delta**(1/2))/2*valorA
+        print(f"O valor de delta foi {delta}, a equação possui apenas uma raiz real: {baskharaMenos}, {bhaskaraMenos}")
+
+    else:
+        bhaskaraMais = ((-b) + delta**(1/2))/2*valorA
+        bhaskaraMenos = ((-b) - delta**(1/2))/2*valorA
+        print(f"O valor de delta foi {delta}, a equação possui apenas uma raiz real: {baskharaMenos}, {bhaskaraMenos}")
