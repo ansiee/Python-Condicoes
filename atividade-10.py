@@ -13,3 +13,5 @@ elif(turno == 'n' or turno == 'N'):
 
 else:
     print(f"Turno inválido! Insira novamente.")
+
+#  CONCLUIDA

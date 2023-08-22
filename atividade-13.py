@@ -25,3 +25,5 @@ elif(numero == 7):
 
 else:
     print(f"O número {numero} é inválido, por favor, insira um dos números válidos. (1- Domingo, 2- Segunda-feira, 3- Terça-feira, 4- Quarta-feira, 5- Quinta-feira, 6- Sexta-feira e 7- Sábado.)")
+
+#  CONCLUIDA

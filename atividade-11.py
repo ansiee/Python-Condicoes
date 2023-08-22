@@ -34,3 +34,5 @@ else:
     salarioReajustado = salario * (1 + 5/100)
     valorAumento = salarioReajustado - salario
     print(f"O seu salário que era de {salario} reais, foi reajustado, com aumento de 5%. O valor do aumento foi de {valorAumento} reais e seu salário novo é {salarioReajustado} reais!")
+
+#  CONCLUIDA

@@ -10,3 +10,5 @@ elif(numero > 0):
 
 else:
     print(f"O número {numero} que foi inserido, corresponde a um número NULO!")
+
+# CONCLUIDA

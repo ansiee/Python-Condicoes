@@ -10,3 +10,5 @@ elif(letra == 'M' or letra == 'm'):
 
 else:
     print(f"Você escreveu {letra}, logo, seu sexo é INVÁLIDO!")
+
+# CONCLUIDA

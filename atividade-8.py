@@ -16,3 +16,5 @@ elif(produto3 < produto1 and produto3 < produto2):
 
 else:
     print(f"Os preços inseridos foram: Produto 1 - {produto1} reais, Produto 2 - {produto2} reais e Produto 3 - {produto3} reais. Os três produtos tem o mesmo preço!")
+
+#  CONCLUIDA

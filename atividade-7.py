@@ -24,3 +24,5 @@ elif(numero3 > numero1 and numero2 < numero1):
 
 else:
      print(f"Os números inseridos foram {numero1}, {numero2} e {numero3}. Os três são iguais!")
+
+#  CONCLUIDA

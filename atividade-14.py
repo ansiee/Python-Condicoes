@@ -29,3 +29,5 @@ elif (media >= 0 and media < 4):
 
 else:
   print(f"Aluno, as notas inseridas são inválidas. Por favor, insira no formato: 10, 9, 8, 7...")
+
+#  CONCLUIDA

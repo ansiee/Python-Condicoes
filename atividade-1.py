@@ -11,3 +11,5 @@ elif(numero2 > numero1):
 
 else:
     print(f"Os números inseridos foram {numero1} e {numero2}, eles são iguais.")
+
+# CONCLUIDA
